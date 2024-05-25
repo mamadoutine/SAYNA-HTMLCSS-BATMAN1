@@ -1,0 +1,39 @@
+html{
+    text-align: center;
+}
+/*pour les bordures de la page*/
+header{
+   border: 2px gray solid;
+   border-top: none;
+  
+}
+main{background-color: black;
+    border: 2px gray solid;
+   border-top: none;
+   border-bottom: none;
+}
+footer{background-color: black;
+    border:2px gray solid;
+   border-top: none;  
+}
+/*position des liens liens de header*/
+ nav{ 
+   text-align:start ;
+}
+.home ul li{
+  
+ position: absolute;
+ height: 2px;
+ right: 10px;
+ top: 10px;
+}
+/*pour supprimer le point du lien du headear*/
+header a{color: white;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+header, main ,footer {
+  color: white; text-align: center;
+}
+.premier, .deuxieme, .troisieme{display: flex;}
